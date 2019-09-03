@@ -88,7 +88,7 @@ new_hash = :yukihiro_matsumoto #=> {
  		      #:languages => ["LISP", "C"]
 #}
 
-merge!(new_hash) => programmer_hash
+new_hash.merge!(programmer_hash)
    programmer_hash.rehash
   return programmer_hash
 end
