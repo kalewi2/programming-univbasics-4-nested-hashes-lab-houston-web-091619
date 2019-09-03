@@ -86,7 +86,7 @@ new_hash = :yukihiro_matsumoto => {
  		      :known_for => "Ruby",
  		      :languages => ["LISP", "C"]
 
-
+merge!(new_hash) => programmer_hash
  		end
 }
    programmer_hash.rehash
