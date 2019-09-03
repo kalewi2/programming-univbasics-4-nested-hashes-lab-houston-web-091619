@@ -88,7 +88,7 @@ new_hash = :yukihiro_matsumoto #=> {
 #}
 
 programmer_hash.merge!(new_hash)
-   programmer_hash.rehash
+   new_hash.rehash
   return new_hash
   end
 
